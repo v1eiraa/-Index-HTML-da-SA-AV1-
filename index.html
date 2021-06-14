@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" th:href="@{/img/logo.png}">
+    <title>Pop Art</title>
+    <!--CSS-->
+    <link rel="stylesheet" th:href="@{/bootstrap-5.0.0/css/bootstrap.min.css}">
+    <link rel="stylesheet" th:href="@{/fontawesome-5.15.3/css/all.css}">
+    <link rel="stylesheet" th:href="@{/css/estilo.css}">
+
+</head>
+<body>
+    <!--NAV-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" th:href="@{/}">Pop art</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" th:href="@{/}">Principal</a>
+              </li>
+             
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+
+    <div class="container container-principal">
+
+      <div class="card">
+          <div class="card-header">
+            Pop art
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">In the Car</h5>
+            <p class="card-text"> In the Car é uma pintura de arte pop de 1963 por Roy Lichtenstein. A menor e mais antiga das duas 
+            versões dessa pintura detinha o recorde de maior preço de leilão para uma pintura de Lichtenstein. A versão maior está na coleção 
+            da Galeria Nacional Escocesa de Arte Moderna de Edimburgo desde 1980.</p>
+            
+           <img src="https://i.pinimg.com/474x/14/81/5e/14815ed09fbaa0d071d0954d77e7f1ef.jpg">
+           <br>
+           <a href="https://en.wikipedia.org/wiki/In_the_Car" class="btn btn-dark">Mais informações</a>
+
+      </div>
+
+      <div class="card">
+          <div class="card-header">
+             Pop art
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Latas de Sopa Campbell</h5>
+            <p class="card-text">Latas de sopa Campbell (cujo título original em inglês é Campbell's Soup Cans), também conhecida como 32 latas de sopa Campbell, é um obra de arte produzida em 1962 pelo artista norte americano Andy Warhol. Consiste em 33 quadros, cada um com 50,8 cm de altura por 40,6 cm de largura, com a pintura de uma lata de sopa Campbell — cada uma das variedades de sopa enlatada que a companhia oferecia naquela época.
+</p>
+
+
+<img src="https://upload.wikimedia.org/wikipedia/pt/1/1f/Campbells_Soup_Cans_MOMA.jpg">
+
+<br>
+              <a href="https://pt.wikipedia.org/wiki/Latas_de_Sopa_Campbell" class="btn btn-dark">Mais informações</a>
+
+          </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          Pop art
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Just what is it that makes today's homes so different</h5>
+          <p class="card-text">O que torna as casas de hoje tão diferentes e atraentes? é uma colagem do artista inglês Richard Hamilton.O trabalho está agora na coleção da Kunsthalle Tübingen, Tübingen, Alemanha. Foi o primeiro trabalho da pop art a alcançar status icônico.
+</p>
+
+
+<img src="https://wishyallwerehere.files.wordpress.com/2016/01/richard-hamilton-just-wha-013.jpg?w=620">
+<br>
+           <a href="https://en.wikipedia.org/wiki/Just_what_is_it_that_makes_today's_homes_so_different,_so_appealing%3F" class="btn btn-dark">Mais informações</a>
+
+        </div>
+    </div>
+  </div> 
+  
+
+
+
+
+
+
+  <footer>
+    <ul>
+      <li><strong>Pop art</strong></li>
+      <li>E-mail: popart@gmail.com</li>
+      <li>Feito por: Vitor Vieira, Gabriel Gaia, Bernardo Tavares, Pedro Sarmento</li>
+    </ul>
+  </footer>
+
+    <!--JS-->
+    <script th:src="@{/js/jquery-3.6.0.min.js}"></script>
+    <script th:src="@{/js/popper.min.js}"></script>
+    <script th:src="@{/bootstrap-5.0.0/js/bootstrap.min.js}"></script>
+    
+
+
+</body>
+</html>
+
